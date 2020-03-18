@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hong.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--Test-->
+        <activity android:name=".TestNetActivity"/>
+
+        <!--Min3D-->
+        <activity android:name=".mini3d.SplashActivity"/>
+        <activity android:name=".mini3d.ExampleRotatingPlanets"/>
+        <activity android:name=".mini3d.ExampleMostMinimal"/>
+        <activity android:name=".mini3d.ExampleVertexColors"/>
+        <activity android:name=".mini3d.ExampleTextures"/>
+        <activity android:name=".mini3d.ExampleVerticesVariations"/>
+        <activity android:name=".mini3d.ExampleRenderType"/>
+        <activity android:name=".mini3d.ExampleCamera"/>
+        <activity android:name=".mini3d.ExampleMultipleLights"/>
+        <activity android:name=".mini3d.ExampleAnimatingVertices"/>
+        <activity android:name=".mini3d.ExampleSubsetOfFaces"/>
+        <activity android:name=".mini3d.ExampleAssigningTexturesDynamically"/>
+        <activity android:name=".mini3d.ExampleTextureWrap"/>
+        <activity android:name=".mini3d.ExampleMipMap"/>
+        <activity android:name=".mini3d.ExampleMultiTexture"/>
+        <activity android:name=".mini3d.ExampleTextureOffset"/>
+        <activity android:name=".mini3d.ExampleFog"/>
+        <activity android:name=".mini3d.ExampleTransparentGlSurface"/>
+        <activity android:name=".mini3d.ExampleLoadObjFile"/>
+        <activity android:name=".mini3d.ExampleLoadObjFileMultiple"/>
+        <activity android:name=".mini3d.ExampleLoad3DSFile"/>
+        <activity android:name=".mini3d.ExampleLoadMD2File"/>
+        <activity android:name=".mini3d.ExampleInsideLayout"/>
+        <activity android:name=".mini3d.ExampleKeyframeAnimation"/>
+        <activity android:name=".mini3d.ExampleAccelerometer"/>
+        <activity android:name=".mini3d.ScratchActivity"/>
+        <activity android:name=".mini3d.ExampleLightProperties"/>
+    </application>
+
+</manifest>
